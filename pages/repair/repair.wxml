@@ -1,10 +1,10 @@
 <!--pages/repair/repair.wxml-->
 <view>
 
-<image src = {{src}} class = "Image"></image>
-<text>诸葛村妇,你要作甚</text>
-'故障报修'
-'我的账户'
-'公司信息'
+<image src = "{{src}}" class = "Image" style = "top : {{top}}; left : {{left}}"></image>
+<text class = "Text">诸葛村妇,你要作甚</text>
+<button class = "buttons" id = "button1" type = "warn">'故障报修'</button>
+<button class = "buttons" id = "button2" type = "primary">'我的账户'</button>
+<button class = "buttons" id = "button3" type = "default">'公司信息'</button>
 
 </view>
