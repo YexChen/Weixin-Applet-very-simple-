@@ -1,0 +1,10 @@
+<!--pages/warning/warning.wxml-->
+<view>
+<view class="group">
+    <icon class = "myIcon" type="success" size="150" style = "top : {{top}};left : {{left}}"/>
+    <text class = "text" style = "top : {{top2}}; left : {{left2}}; font-family : '微软雅黑' ">单车已经解锁</text>
+    <button type = "primary" class = "myButton" bindtap = "switchPage" style = "top : {{top3}}; left : {{left3}};">更多功能</button>
+
+</view>
+
+</view>

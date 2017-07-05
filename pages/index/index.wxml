@@ -42,6 +42,7 @@
     scale="{{a}}"
     controls = "{{control}}"
     markers = "{{markers}}"
+    bindcontroltap="controltap"
     > </map>
 
 </view>

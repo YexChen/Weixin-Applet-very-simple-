@@ -27,6 +27,15 @@
 
       },
 
+      controltap(e) {
+        //console.log(e.controlId);
+        if(e.controlId == 0 || e.controlId == 2){
+          wx.navigateTo({
+            url: '/pages/warning/warning',
+          })
+        }
+      },
+
       // 当前程序执行完的时候
       //   onReady 代表整个程序加载完成 的时候，不能修改，因为是系统规定
       //     function() 是一个格式
@@ -293,7 +302,7 @@
               }
 
             ];
-            
+
             pages.setData({
               control: con
             })
@@ -325,7 +334,7 @@
             self.setData({
               lo: res.longitude,
               la: res.latitude,
-              markers : markers
+              //markers : markers
              /* markers: [{
                 iconPath: "/images/position_icon.png",
                 id: 1,

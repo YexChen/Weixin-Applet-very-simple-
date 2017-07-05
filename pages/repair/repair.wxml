@@ -1,0 +1,10 @@
+<!--pages/repair/repair.wxml-->
+<view>
+
+<image src = {{src}} class = "Image"></image>
+<text>诸葛村妇,你要作甚</text>
+'故障报修'
+'我的账户'
+'公司信息'
+
+</view>
