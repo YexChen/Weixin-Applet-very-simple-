@@ -1,1 +1,13 @@
 /* pages/repair/repair.wxss */
+.image{
+  position : absolute;
+  top : "100px";
+}
+
+.button1{
+  position : absolute;
+}
+
+.button2{
+  position : absolute;
+}

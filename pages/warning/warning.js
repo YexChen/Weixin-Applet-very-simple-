@@ -23,11 +23,11 @@ Page({
       success: function(res) {
         var sys = res;
         pages.setData({
-          top: sys.windowHeight/2 -100 + "px",
+          top: sys.windowHeight/2 -140 + "px",
           left : sys.windowWidth/2 -75 + "px",
-          top2: sys.windowHeight / 2 + 60 + "px",
+          top2: sys.windowHeight / 2 + 20 + "px",
           left2: sys.windowWidth / 2 - 60 + "px",
-          top3: sys.windowHeight / 2 + 120 + "px",
+          top3: sys.windowHeight / 2 + 82 + "px",
           left3: sys.windowWidth / 2 - 105 + "px",
         })
       },

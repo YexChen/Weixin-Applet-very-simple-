@@ -3,6 +3,8 @@
     "pages/index/index",
     "pages/warning/warning",
     "pages/repair/repair",
+    "pages/baoxiu/baoxiu",
+    "pages/zhanghu/zhanghu",
     "pages/logs/logs"
   ],
   "window":{

@@ -1,10 +1,10 @@
 <!--pages/repair/repair.wxml-->
 <view>
 
-<image src = "{{src}}" class = "Image" style = "top : {{top}}; left : {{left}}"></image>
-<text class = "Text">诸葛村妇,你要作甚</text>
-<button class = "buttons" id = "button1" type = "warn">'故障报修'</button>
-<button class = "buttons" id = "button2" type = "primary">'我的账户'</button>
-<button class = "buttons" id = "button3" type = "default">'公司信息'</button>
+<image src = "{{src}}" class = "Image" style = "position : absolute;top : {{top}}; left : {{left}};width : 150px;height : 150px "></image>
+<text class = "Text" style = "font-family : '微软雅黑';position : absolute;top : {{top2}};left : {{left2}}">来者可要？</text>
+<button class = "buttons" id = "button1" bindtap = "switchPage1" type = "warn" style = "width : 200px;top : {{top3}};left : {{left3}}">故障报修</button>
+<button class = "buttons" id = "button2" bindtap = "switchPage2" type = "primary" style = "width : 200px;top : {{top4}};left : {{left3}}">翻阅账户</button>
+<button class = "buttons" id = "button3" bindtap = "switchPage3" type = "default" style = "width : 200px;top : {{top5}};left : {{left3}}">调查公司</button>
 
 </view>

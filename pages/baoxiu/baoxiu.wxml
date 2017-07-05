@@ -1,0 +1,6 @@
+<!--pages/baoxiu/baoxiu.wxml-->
+<image src = "{{src}}" style = " position : absolute;width : 150px;height : 150px;left : {{left}};top : {{top}} "></image>
+<form>
+<textarea placeholder="请尽情输入(电脑端就别想啦)" rows = "6" cols = "20" style = "border : 1px solid black;position : absolute;left : {{left2}};top : {{top2}}"></textarea>
+<button type = "primary" style = "width : 200px;position : absolute;left : {{left3}};top : {{top3}}">提交</button>
+</form>
