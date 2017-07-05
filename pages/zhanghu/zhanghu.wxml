@@ -1,2 +1,2 @@
 <!--pages/zhanghu/zhanghu.wxml-->
-<text>pages/zhanghu/zhanghu.wxml</text>
+<image src = "/images/404.jpg" style = "position : absolute;width :{{width}};height:{{height}}"></image>
